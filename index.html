@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yamin Faruque | Assignment 2</title>
+    <link rel="stylesheet" href="./StyleSheet1.css">
+    <script src="./hello.js"></script>
+</head>
+<body>
+ <div>
+    <div class="wrapper">
+<div class="randomquote">
+        <h1>Your quote of the day!</h1>
+
+    </div>
+    <div class="boxer" id="quoteDisplay">
+           
+    </div>
+   
+</div>
+<table class="helloo" style="display: inline-block;" >
+    <tr>
+        <td class="tdstyle" id="color0"  onclick="changecolor(0)"></td>
+        <td class="tdstyle" id="color1" onclick="changecolor(1)"></td>
+    </tr>
+    <tr>
+        <td class="tdstyle" id="color2" onclick="changecolor(2)"></td>
+        <td class="tdstyle" id="color3" onclick="changecolor(3)"></td>
+    </tr>
+
+</table>
+</div>
+<div class=main>
+    <div class="weightconv">
+<h1>Weight Converter</h1>
+<p id ="conv" style="display: inline-block;margin-right: 5px;">Convert</p>
+<span><input id="inp" type="number" style="margin-right: 5px;"></span>
+
+   <span> <select id="seltyp">
+        <option value="lbtokg">lb to Kg</option>
+        <option value="kgtolb">Kg to lb</option>
+    </select> 
+    <button type="button" onclick="convert()">Go</button>
+    <p id="result" style="display:inline-block;"></p>
+</span>
+</div>
+
+<div class=num>
+<h1>Math operations!</h1>
+<p style="display: inline-block">Input a series of numbers </p>
+<input id="num" type="text" style="display: inline-block">
+<p>Max:<span id=max></span></p>
+<p>Min:<span id=min></span></p>
+<p>Sum:<span id=sum></span></p>
+<p>Avg:<span id=avg></span></p>
+<p>Reverse:<span id=revrs></span></p>
+<p></div>
+    <div id="magic">
+        <h1 style="text-align: center;">Magic!</h1>
+            <div class="obox">
+                <textarea name="area" class="input1" id="input1x" cols="30" rows="10"></textarea>
+                <div class="buts">
+                        <button type="button" id="but1" onclick="clearall()">Clear all</button>
+                        <button type="button" id="but2" onclick="capt()" style="display:inline-block;">Capitalize</button>
+                        <button type="button" id="but3" onclick="sortstuff()" style="display:inline-block;">Sort</button>
+                        <button type="button" id="but4" onclick="rev1()" style="display:inline-block;">Reverse</button>
+                        <button type="button" id="but5" onclick="whitespace()" style="display:inline-block;">Strip Blank</button>
+                        <button type="button" id="but6" onclick="num()" style="display:inline-block;">Add Numbers</button>
+                        <button type="button" id="but7" onclick="randomline()" style="display:inline-block;">Shuffle</button>
+                    </div>
+                    
+            </div>
+</div>
+
+    
+</div>
+</body>
+</html>

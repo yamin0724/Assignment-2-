@@ -1,0 +1,125 @@
+﻿
+body{
+	
+}
+
+.wrapper{
+	display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   
+
+}
+
+.randomquote{
+text-align: center;
+
+	}
+	
+	
+.boxer{
+display: inline-block;	
+position: absolute;
+border: 9px ;
+width: 15%;
+height: 15%;
+text-align: center;
+top: 10%;
+vertical-align: middle;  
+background-color:#25f2c4;"
+
+}
+#quoteDisplay{
+	font-size: 40px;
+	padding: 30px;
+	padding-bottom: 30px;
+	color:white; 
+	font-family:Arial; 
+	 padding-top:60px;
+	 border: 9px solid black;
+	
+}
+#color0{
+background-color: #cc1f53;
+border: #cc1f53;
+}
+#color1{
+	background-color:#ff91b3;
+	border: #ff91b3;
+}
+#color2{
+
+	background-color:#7fd5e7;
+	border: #7fd5e7;
+}
+#color3{
+
+	background-color: #002642;
+	border: #002642;
+}
+
+.tdstyle{
+	height:40px;
+	width:40px;
+	cursor:pointer;
+	}
+	.helloo{
+		position: absolute;
+		left: 60%;
+		top:15%;
+
+	}
+	.main{
+		position: absolute;
+		left: 40.5%;
+		top: 40%;
+
+	}
+	.num{
+		border: 2px solid black;
+		padding: 6px;
+
+	}
+	
+	.weightconv{
+		border: 2px solid black;
+		padding: 6px;
+		margin-bottom: 4px;
+
+	}
+	
+	.obox{
+		
+		position: absolute;
+		height: 13cm;
+		width: 13cm;
+		left: -29%;
+		margin-bottom: 30px;
+		border: 1px solid black;
+		padding-left: 48px;
+		padding-right: 60px;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		
+		background-color: #DFDBE5;
+		background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+		
+
+	}
+	.input1{
+		position: absolute;
+		height: 13cm; 
+		width: 13cm;
+		border: 1px solid black;
+		max-width:13cm; 
+		min-width: 10cm;
+		
+		
+	}
+	.buts{
+		position: absolute;
+		top: 93%;
+		width:fit-content;
+		
+	}
